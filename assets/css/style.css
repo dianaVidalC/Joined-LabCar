@@ -1,0 +1,45 @@
+/*------information---*/
+
+section.informacion{
+  position: relative;
+  background-color: #f7b617;
+  height: 58rem;
+  color: #FFF;
+}
+
+section.informacion h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+section.informacion p{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.8rem;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.row-left{
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  margin-top:6rem;
+  border: 1px solid #FFF;
+  padding: 4rem 18rem;
+  transform: translateX(-20%);
+}
+
+@media (max-width:728px){
+
+  section.informacion{
+    height: 51rem;
+
+  }
+  .row-left{
+    transform: none;
+    padding: 4rem;
+    padding-top: 6rem;
+    margin:4rem 2rem 2rem 2rem;
+  }
+/*----information---->*/

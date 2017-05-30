@@ -3,9 +3,9 @@ nav{
     font-family: 'Open Sans', sans-serif;
 }
 .navbar-toggle{
-    float: left;
     margin-left: 15px;
-}
+    margin-top: 15px;
+}    
 .navbar-default .navbar-brand{
     color: #f7b617;
     font-weight: 600;

@@ -90,20 +90,20 @@ nav{
 
 /*------information---*/
 
-section.informacion{
+section#informacion{
   position: relative;
   background-color: #f7b617;
   height: 58rem;
   color: #FFF;
 }
 
-section.informacion h3{
+section#informacion h3{
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   margin-bottom: 3rem;
 }
 
-section.informacion p{
+section#informacion p{
   font-family: 'Open Sans', sans-serif;
   line-height: 2.8rem;
   font-size: 1.8rem;
@@ -129,7 +129,7 @@ section.informacion p{
       width: 130px;
       margin-left: 55px;
     }
-    section.informacion{
+    section#informacion{
       height: 51rem;
 
     }

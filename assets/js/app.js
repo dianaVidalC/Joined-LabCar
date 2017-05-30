@@ -6,12 +6,12 @@ var map;
 var marker;
 function initMap(){
   var barranco = {lat: -12.143932, lng: -77.021874};
-  var map= new google.maps.Map(document.getElementById('map'), {
+  map= new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
     center: barranco
   });
 
-  var markLaboratoria = new google.maps.Marker({
+  var markBarranco = new google.maps.Marker({
     position: barranco,
     map: map
   });
@@ -42,14 +42,12 @@ function autocompleteInput(){
 function showRoute(){
   var directionsService = new google.maps.DirectionsService;
   var directionsDisplay = new google.maps.DirectionsRenderer({map: map});
-  console.log(directionsDisplay);
   var request = {
     origin: inpOrigin.value,
     destination: inpDestiny.value,
     travelMode: "DRIVING",
   };
   directionsService.route(request, function(response, status){
-    console.log(response);
     if(status === 'OK'){
       directionsDisplay.setDirections(response);
       marker.setMap(null);
@@ -65,5 +63,4 @@ function rateForTravel(response){
   var rate = distFromOriginToDest*2;
   var totalRate = document.getElementById("total-rate");
   totalRate.innerHTML = (rate > 5)? "S/. " + parseInt(rate): "S/. 5";
-  console.log(distFromOriginToDest);
 }

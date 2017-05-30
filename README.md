@@ -21,34 +21,34 @@ _Proyecto Final | Sprint 4_
     texto debajo del contenedor del celular
 4. **Conductor**   
   - _**Desktop**_
-   - [x] Imágen de conduce y contenido a la derecha
+    - [x] Imágen de conduce y contenido a la derecha
   - _**Mobile**_
-   - [x] El contenido unicado a la derecha pasa a ocupar todo el ancho
+    - [x] El contenido unicado a la derecha pasa a ocupar todo el ancho
 5. **Tarifa**
   - _**Desktop**_
-   - [x] Dos input para agregar el punto de partida y otro para el destino
-   - [x] Botón de trazar ruta
-   - [x] Mostrar el Google Maps
+    - [x] Dos input para agregar el punto de partida y otro para el destino
+    - [x] Botón de trazar ruta
+    - [x] Mostrar el Google Maps
   - _**Mobile**_
-   - [x] No se muestra el mapa
+    - [x] No se muestra el mapa
 6. **Footer**
   - _**Desktop**_
-   - [x] Logo
-   - [x] Dos columnas con enlaces
-   - [x] Sociales
-   - [x] Plataformas disponibles para la aplicación
-   - [x] Copyright
+    - [x] Logo
+    - [x] Dos columnas con enlaces
+    - [x] Sociales
+    - [x] Plataformas disponibles para la aplicación
+    - [x] Copyright
   - _**Mobile**_
-   - [x] Desaparece un bloque de links
-   - [x] Sociales a la derecha
-   - [x] Plataformas debajo de sociales
+    - [x] Desaparece un bloque de links
+    - [x] Sociales a la derecha
+    - [x] Plataformas debajo de sociales
     
 ## Hacker Edition
 - [x] Trazar ruta entre los puntos escritos en los input
 - [x] Estimar la tarifa en base a a distancia entre los puntos 
-(valor por Km: 1.75)
+(valor por Km: S/. 2.00)
 
-## SECCIONES
+## Secciones
   La web de LabCar está conformada por: 
 
 1. Navbar
@@ -138,9 +138,9 @@ function rateForTravel(response){
 ```
 
 ## Vista Mobile
-![Vista Mobile](/images/mobile.png)
+![](assets/images/mobile.png)
 ## Vista Desktop
-![Vista Desktop](/images/desktop.png)
+![](assets/images/desktop.png)
 
 Mira cómo quedó haciendo click [aquí](https://lesashley.github.io/Joined-LabCar/).
 

@@ -144,6 +144,9 @@ function rateForTravel(response){
 
 Mira cómo quedó haciendo click [aquí](https://lesashley.github.io/Joined-LabCar/).
 
+## Network Graph  
+![](assets/images/network_graph.png)
+
 ## Team Joined Coders
 
 <a href="https://github.com/dianaVidalC"><img src="https://avatars3.githubusercontent.com/u/25887195?v=3&s=460" alt="Erika Vidal" height="150"></a> |

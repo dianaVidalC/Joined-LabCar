@@ -5,6 +5,16 @@ var btnRoute = document.getElementById("btn-route");
 var map;
 var marker;
 function initMap(){
+  var barranco = {lat: -12.143932, lng: -77.021874};
+  var map= new google.maps.Map(document.getElementById('map'), {
+    zoom: 14,
+    center: barranco
+  });
+
+  var markLaboratoria = new google.maps.Marker({
+    position: barranco,
+    map: map
+  });
   (navigator.geolocation)? navigator.geolocation.getCurrentPosition(seePosition): containerMap.innerHTML = "Geolocalización no es soportado por tu navegador";
   autocompleteInput();
   btnRoute.addEventListener("click", showRoute);

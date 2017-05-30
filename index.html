@@ -1,19 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/style.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
-    <title>LabCar</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/fonts/style.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="icon" sizes="192x192" href="assets/images/log.ico">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+      <title>LabCar</title>
   </head>
   <body>
-    <header></header>
-    <section id="hero"></section>
-    <section id="information"></section>
+    <header>
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="size-logo">
+              <img src="assets/images/logo.png" alt="logo">
+            </div>
+          </div>
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Viaja</a></li>
+              <li><a href="#">Conduce</a></li>
+              <li><a href="#">Inicia Sesion</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="hero">
+      <section>
+        <div class="container-fluid" id="hero">
+          <div class="row">
+            <div class="col-xs-9 col-sm-5 box-hero">
+              <div class="title hidden-xs">
+                <h2><strong>Disfruta del viaje</strong></h2>
+                <h2><strong>Eres dueño de tu tiempo</strong></h2>
+              </div>
+              <div class="visible-xs">
+                <h2><strong>Comienza a</strong></h2>
+                <h2><strong>viajar con</strong></h2>
+              </div>
+              <div class="texto-hero">
+                <span class="hidden-xs">Viaja con </span>
+                <img src="assets/images/logo-blanco.png"alt="">
+                <h5 class="hidden-xs">REGISTRATE</h5>
+              </div>
+              <div class="hidden-xs">
+                <div class="col-xs-4 pull-left">
+                  <input type="text" name="" class="">
+                </div>
+                <div class="col-xs-4 center-block text-center">
+                  <label for="">O bien</label>
+                </div>
+                <div class="col-xs-4 pull-right">
+                  <input type="text" name="" class="">
+                </div>
+              </div>
+              <button type="button" class="btn btn-default btn-hero hidden-xs"><strong>Conviértete en un conductor</strong></button>
+              <button type="button" class="btn btn-default btn-hero visible-xs"><strong>Descargar el app</strong></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="informacion">
+    <div class="container">
+        <div class="row row-left">
+          <div class="col-sm-6 col-xs-12">
+            <h3 class="visible-xs text-right">La nueva app</h3>
+            <img class="img-responsive "src="assets/images/celular.png" alt="celular">
+          </div>
+          <div class="col-sm-6 hidden-xs">
+            <h3>Descarga la nueva app</h3>
+            <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+            <P>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe realmente a dónde ir.</P>
+          </div>
+        </div>
+        <div class="row visible-xs">
+          <h4 class="text-center">Llega a tu destino aun más rápido</h4>
+        </div>
+      </div>
+    </section>
     <section id="driver"></section>
     <section id="map-route"></section>
     <footer>

@@ -1,0 +1,52 @@
+#hero{
+  background-image: url(../images/taxi.jpg);
+  background-position: 100% 93%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+}
+.box-hero{
+  padding: 30px;
+  background-color: #f7b617;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  color: #ffffff;
+}
+.box-hero img{
+  width: 80px;
+}
+.box-hero input{
+  border: 0;
+  background: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  margin-bottom: 10px;
+}
+.btn-hero{
+  margin: 20px 0;
+}
+.box-hero h2{
+  line-height: 0.4;
+}
+.texto-hero{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.texto-hero img{
+  margin-left: 5px;
+}
+.texto-hero h5{
+  margin-top: 17px;
+  font-weight: 600;
+}
+.title{
+  margin : 40px 0;
+}
+@media(max-width: 768px){
+  .box-hero{
+    top: 125px;
+  }
+}

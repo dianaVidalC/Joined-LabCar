@@ -1,0 +1,20 @@
+.bg-orange{
+  background-color: #F7B617;
+}
+.c-white{
+  color: white;
+}
+.bor-white{
+  border: 1px solid white;
+}
+#map{
+  height: 30rem;
+}
+.form-control:focus {
+    border-color: white;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px white;
+  }
+.form-control::-webkit-input-placeholder { color: white; } /* WebKit */
+.form-control:-moz-placeholder { color: white; } /* Firefox 18- */
+.form-control::-moz-placeholder { color: white; } /* Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; } /* IE 10+ */

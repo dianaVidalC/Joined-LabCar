@@ -1,8 +1,10 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
 #footer{
   background-color: #2b2b2b;
   padding: 50px 0;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
 }
 #footer a{
   color: #ffffff;

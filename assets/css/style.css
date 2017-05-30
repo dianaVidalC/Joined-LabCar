@@ -121,69 +121,90 @@ section#informacion p{
   transform: translateX(-20%);
 }
   /*----information---->*/
-  #footer{
-    background-color: #2b2b2b;
-    padding: 50px 0;
-    color: #ffffff;
+  /*Conduce*/
+  #driver{
+    background-image: url("../images/conduce.jpg");
+    height: 30rem;
+    background-position-y: 50%;
   }
-  #footer a{
-    color: #ffffff;
-    font-size: 1.5rem;
+  .ff-open-sans{
+    font-family: 'Open Sans', sans-serif;
   }
-  .flex-end{
+  .ff-raleway{
+    font-family: 'Raleway', sans-serif;
+  }
+  .bg-orange{
+    background-color: #F7B617;
+  }
+  .bg-rgblack{
+    background-color: rgba(0,0,0,0.7);
+  }
+  .c-white{
+    color: white;
+  }
+  .bo-non{
+    border: none;
+  }
+  .height-100pr{
+    height: 100%;
+  }
+  .item-center{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
   }
-  .flex-end img{
-    margin-top: 40px;
-    cursor: pointer;
+  .dir-column{
+    flex-direction: column;
   }
-  .nav>li>a {
-    padding: 10px 1px;
+  .alig-fl-start{
+    align-items: flex-start;
   }
-/*Conduce*/
-#driver{
-  background-image: url("../images/conduce.jpg");
-  height: 30rem;
-  background-position-y: 50%;
-}
-.ff-open-sans{
-  font-family: 'Open Sans', sans-serif;
-}
-.ff-raleway{
-  font-family: 'Raleway', sans-serif;
-}
+  .bg-prop{
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*conduce*/
+/*Map*/
 .bg-orange{
   background-color: #F7B617;
-}
-.bg-rgblack{
-  background-color: rgba(0,0,0,0.7);
 }
 .c-white{
   color: white;
 }
-.bo-non{
-  border: none;
+.bor-white{
+  border: 1px solid white;
 }
-.height-100pr{
-  height: 100%;
+#map{
+  height: 30rem;
 }
-.item-center{
+.form-control:focus {
+  border-color: white;
+  box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px white;
+}
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+/*MAP*/
+#footer{
+  background-color: #2b2b2b;
+  padding: 50px 0;
+  color: #ffffff;
+}
+#footer a{
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.flex-end{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
 }
-.dir-column{
-  flex-direction: column;
+.flex-end img{
+  margin-top: 40px;
+  cursor: pointer;
 }
-.alig-fl-start{
-  align-items: flex-start;
+.nav>li>a {
+  padding: 10px 1px;
 }
-.bg-prop{
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/*conduce*/
 
 @media(max-width: 760px){
   .box-hero{
@@ -208,4 +229,3 @@ section#informacion p{
   .flex-end img{
     width: 150px;
   }
-}
